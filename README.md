@@ -9,3 +9,9 @@ Cpp implementation:
 ```bash
 g++ -o ./cpp/main.out ./cpp/main.cpp && ./cpp/main.out
 ```
+
+Rust implementation:
+
+```bash
+cd ./rust && cargo run . && cd ..
+```
