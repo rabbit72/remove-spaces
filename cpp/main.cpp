@@ -27,7 +27,7 @@ void RemoveExtraSpaces(string &target) {
             }
         }
     }
-    // step 3: removing spaces at the end
+    // step 3: cutting the string inplace
     if (to_index > 1 && is_previous_space) {
         target.erase(target.begin() + to_index - 1, target.end());
     } else {

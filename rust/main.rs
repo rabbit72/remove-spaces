@@ -52,7 +52,7 @@ pub fn remove_extra_spaces(target: &mut String) {
         }
         from_index += 1;
     }
-    // step 3: removing spaces at the end
+    // step 3: cutting the string inplace
     if to_index > 1 && is_previous_space {
         target.truncate(to_index - 1);
     } else {
