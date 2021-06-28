@@ -15,3 +15,9 @@ Rust implementation:
 ```bash
 cd ./rust && cargo run . && cd ..
 ```
+
+(EXTRA) A fun Golang implementation:
+
+```bash
+cd ./golang && go run . && cd ..
+```
